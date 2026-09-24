@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Conheça a AgroSense: monitoramento inteligente de máquinas agroindustriais com sensores e inteligência artificial para apoiar a manutenção preditiva.">
+    <meta name="theme-color" content="#f5f2e9">
+    <title>AgroSense — Inteligência que antecipa falhas no campo</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <a class="visually-hidden-focusable btn btn-dark position-absolute m-2" href="#conteudo">Pular para o conteúdo</a>
+    <header class="border-bottom bg-paper">
+      <div class="container py-3 d-flex flex-wrap align-items-center justify-content-between gap-3">
+        <a class="wordmark text-decoration-none" href="#inicio" aria-label="AgroSense, início">Agro<span>Sense</span><span class="wordmark-dot">.</span></a>
+        <nav class="d-flex flex-wrap column-gap-4 row-gap-1 small fw-semibold" aria-label="Navegação principal">
+          <a href="#problema">O desafio</a>
+          <a href="#solucao">A solução</a>
+          <a href="#recursos">Recursos</a>
+          <a href="#tecnologia">Tecnologia</a>
+          <a href="#equipe">Equipe</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+    <main id="conteudo">
+
+      <!-- APRESENTAÇÃO -->
+      <section id="inicio" class="container py-5 py-lg-6" aria-labelledby="titulo-principal">
+        <div class="row align-items-end gy-4 mb-4 mb-lg-5">
+          <div class="col-lg-8">
+            <p class="kicker mb-3">AGROSENSE / TECNOLOGIA NO CAMPO</p>
+            <h1 id="titulo-principal" class="display-3 title-main mb-0">Inteligência que antecipa falhas <em>no campo.</em></h1>
+          </div>
+          <div class="col-lg-4">
+            <p class="lead mb-4">Transformamos dados de máquinas agroindustriais em informações inteligentes para identificar anomalias e apoiar a manutenção preditiva.</p>
+            <a class="btn btn-dark rounded-0 px-4 py-3" href="#solucao">Conheça a solução <span aria-hidden="true">↗</span></a>
+            <a class="ms-3 text-decoration-underline link-dark" href="#como-funciona">Como funciona</a>
+          </div>
+        </div>
+        <figure class="mb-0">
+          <div class="position-relative">
+            <img class="w-100 hero-photo" src="img/agrosense-tractor.png" alt="Ilustração de um trator em uma lavoura ao pôr do sol, criada com inteligência artificial" width="1536" height="1024" fetchpriority="high">
+            <span class="photo-tag small">MONITORAMENTO AGROINDUSTRIAL · AG-01</span>
+          </div>
+          <figcaption class="d-flex flex-wrap justify-content-between gap-2 small text-muted py-3 border-bottom">
+            <span>Conectando o campo à próxima decisão. · Sensores conectados</span>
+            <span>Imagem ilustrativa · dados de exemplo · Operação normal</span>
+          </figcaption>
+        </figure>
+        <dl class="row row-cols-3 gy-2 py-4 border-bottom mb-0" aria-label="Leituras ilustrativas do trator AG-01">
+          <div class="col">
+            <dt class="small text-muted">Temperatura</dt>
+            <dd class="h4 mb-0">74 °C</dd>
+          </div>
+          <div class="col">
+            <dt class="small text-muted">Torque</dt>
+            <dd class="h4 mb-0">42 Nm</dd>
+          </div>
+          <div class="col">
+            <dt class="small text-muted">Rotação</dt>
+            <dd class="h4 mb-0">1.850 RPM</dd>
+          </div>
+        </dl>
+        <div class="row gy-3 py-4 text-uppercase small fw-semibold border-bottom">
+          <div class="col-md-4">01   Monitoramento em tempo real</div>
+          <div class="col-md-4">02   Manutenção preditiva</div>
+          <div class="col-md-4">03   Inteligência Artificial</div>
+        </div>
+      </section>
+
+      <!-- DESAFIO -->
+      <section id="problema" class="container py-5 py-lg-6" aria-labelledby="problema-titulo">
+        <div class="row gy-4 mb-5">
+          <div class="col-lg-4">
+            <p class="kicker">01 / O DESAFIO</p>
+          </div>
+          <div class="col-lg-8">
+            <h2 id="problema-titulo" class="section-title mb-3">Quando uma máquina para, toda a operação sente.</h2>
+            <p class="lead col-lg-10">Desgaste, alterações de funcionamento e falhas mecânicas nem sempre são visíveis. Quando o problema aparece tarde, o impacto vai além da máquina.</p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <article class="rule-item h-100">
+              <span class="kicker">01</span>
+              <h3 class="h5 mt-4">Paradas inesperadas</h3>
+              <p>Falhas podem interromper operações importantes, justamente quando o campo mais precisa.</p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="rule-item h-100">
+              <span class="kicker">02</span>
+              <h3 class="h5 mt-4">Custos de manutenção</h3>
+              <p>Problemas detectados tarde podem tornar a manutenção mais complexa e aumentar seus custos.</p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="rule-item h-100">
+              <span class="kicker">03</span>
+              <h3 class="h5 mt-4">Baixa previsibilidade</h3>
+              <p>Inspeções tradicionais nem sempre identificam alterações a tempo de planejar uma intervenção.</p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="rule-item h-100">
+              <span class="kicker">04</span>
+              <h3 class="h5 mt-4">Perda de produtividade</h3>
+              <p>Equipamentos indisponíveis afetam o ritmo do trabalho e o planejamento de toda a operação.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOLUÇÃO -->
+      <section id="solucao" class="forest-band py-5 py-lg-6" aria-labelledby="solucao-titulo">
+        <div class="container">
+          <div class="row gy-4 mb-5">
+            <div class="col-lg-4">
+              <p class="kicker text-light-subtle">02 / A SOLUÇÃO</p>
+            </div>
+            <div class="col-lg-8">
+              <h2 id="solucao-titulo" class="section-title mb-3">Do dado à decisão.</h2>
+              <p class="lead col-lg-10">Acompanhamos o comportamento das máquinas para transformar leituras dos sensores em informações úteis para a manutenção.</p>
+            </div>
+          </div>
+          <p class="small text-uppercase fw-bold mb-3">O caminho dos dados</p>
+          <ol class="d-flex flex-wrap list-unstyled gap-2 mb-5" aria-label="Caminho dos dados, dos sensores à decisão">
+            <li class="flow-label">Sensores</li>
+            <li class="flow-label">Coleta</li>
+            <li class="flow-label">Transmissão</li>
+            <li class="flow-label">Processamento</li>
+            <li class="flow-label">Inteligência Artificial</li>
+            <li class="flow-label">Análise</li>
+            <li class="flow-label">Alertas</li>
+            <li class="flow-label">Decisão</li>
+          </ol>
+          <div id="como-funciona" class="border-top border-light border-opacity-25 pt-4">
+            <div class="d-flex flex-wrap justify-content-between align-items-baseline gap-2 mb-4">
+              <h3 class="h4">Como funciona, na prática</h3>
+              <span class="small text-light-subtle">Quatro etapas. Uma visão conectada.</span>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+              <div class="col">
+                <div class="step h-100">
+                  <span>01 / MONITORAR</span>
+                  <h4 class="h5 mt-4">Monitoramento</h4>
+                  <p>Sensores disponibilizam informações sobre as condições de operação das máquinas.</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="step h-100">
+                  <span>02 / CONECTAR</span>
+                  <h4 class="h5 mt-4">Transmissão</h4>
+                  <p>Os dados são transmitidos em tempo real para o sistema, conectando o equipamento à análise.</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="step h-100">
+                  <span>03 / INTERPRETAR</span>
+                  <h4 class="h5 mt-4">Inteligência</h4>
+                  <p>Um modelo de IA analisa as informações para identificar possíveis comportamentos anormais.</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="step h-100">
+                  <span>04 / AGIR</span>
+                  <h4 class="h5 mt-4">Ação</h4>
+                  <p>Indicadores, históricos e alertas apoiam a análise e as decisões da equipe de manutenção.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RECURSOS E PAINEL -->
+      <section id="recursos" class="container py-5 py-lg-6" aria-labelledby="recursos-titulo">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-4">
+            <p class="kicker">03 / VISÃO GERAL</p>
+            <h2 id="recursos-titulo" class="section-title mb-4">Informação clara para decisões mais rápidas.</h2>
+            <p>O que está acontecendo agora. O que mudou ao longo do tempo. O que merece atenção. Tudo em uma visão organizada.</p>
+            <div class="border-top mt-4">
+              <div class="py-3 border-bottom">
+                <h3 class="h6 mb-1">Uma visão de toda a operação</h3>
+                <p class="small mb-0">Equipamentos e indicadores no mesmo lugar.</p>
+              </div>
+              <div class="py-3 border-bottom">
+                <h3 class="h6 mb-1">Contexto para cada leitura</h3>
+                <p class="small mb-0">Históricos que ajudam a perceber mudanças.</p>
+              </div>
+              <div class="py-3 border-bottom">
+                <h3 class="h6 mb-1">Atenção ao que importa</h3>
+                <p class="small mb-0">Alertas para apoiar a avaliação da equipe.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <figure class="report-sheet mb-0">
+              <div class="d-flex flex-wrap justify-content-between gap-2 border-bottom pb-3 mb-4">
+                <strong>AGROSENSE / VISÃO DA OPERAÇÃO</strong>
+                <span class="small text-muted">DEMONSTRAÇÃO</span>
+              </div>
+              <dl class="row row-cols-2 row-cols-md-4 gy-3 mb-4">
+                <div class="col">
+                  <dt class="small text-muted">Monitoradas</dt>
+                  <dd class="h2 mb-0">12</dd>
+                </div>
+                <div class="col">
+                  <dt class="small text-muted">Normais</dt>
+                  <dd class="h2 mb-0">10</dd>
+                </div>
+                <div class="col">
+                  <dt class="small text-muted">Alertas ativos</dt>
+                  <dd class="h2 mb-0">02</dd>
+                </div>
+                <div class="col">
+                  <dt class="small text-muted">Temp. média</dt>
+                  <dd class="h2 mb-0">74 °C</dd>
+                </div>
+              </dl>
+              <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                  <div class="border p-3 h-100">
+                    <h3 class="h6">Temperatura <span class="float-end fw-normal">74 °C</span></h3>
+                    <svg class="w-100 chart-svg" viewBox="0 0 260 125" role="img" aria-label="Exemplo fictício: temperatura entre 62 e 78 graus das 08h às 12h, terminando em 74 graus">
+                      <path class="chart-grid" d="M10 30H250 M10 60H250 M10 90H250"></path>
+                      <path class="chart-line" d="M10 92 30 80 50 84 70 68 90 74 110 50 130 56 150 40 170 47 190 50 210 53 230 48 250 52"></path>
+                      <text x="10" y="118">08h</text>
+                      <text x="120" y="118">10h</text>
+                      <text x="230" y="118">12h</text>
+                    </svg>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="border p-3 h-100">
+                    <h3 class="h6">Rotação <span class="float-end fw-normal">1.850 RPM</span></h3>
+                    <svg class="w-100 chart-svg" viewBox="0 0 260 125" role="img" aria-label="Exemplo fictício: rotação entre 1.650 e 1.900 RPM das 08h às 12h, terminando em 1.850 RPM">
+                      <path class="chart-grid" d="M10 30H250 M10 60H250 M10 90H250"></path>
+                      <path class="chart-line chart-line-alt" d="M10 82 30 74 50 78 70 61 90 66 110 51 130 58 150 45 170 50 190 44 210 54 230 49 250 50"></path>
+                      <text x="10" y="118">08h</text>
+                      <text x="120" y="118">10h</text>
+                      <text x="230" y="118">12h</text>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="table-responsive">
+                <table class="table table-sm align-middle mb-0">
+                  <caption class="visually-hidden">Amostra de equipamentos com dados fictícios</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Equipamento</th>
+                      <th scope="col">Temperatura</th>
+                      <th scope="col">Situação</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Trator AG-01</th>
+                      <td>74 °C</td>
+                      <td>Normal</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Colheitadeira AG-02</th>
+                      <td>92 °C</td>
+                      <td>Atenção</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Trator AG-03</th>
+                      <td>71 °C</td>
+                      <td>Normal</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <figcaption class="small text-muted border-top pt-3 mt-3">Prévia visual do produto. Todos os dados são ilustrativos.</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row mt-5 pt-5 border-top gy-4">
+          <div class="col-lg-4">
+            <p class="kicker">LEITURAS</p>
+            <h2 class="h2">Cada leitura conta uma parte da história.</h2>
+          </div>
+          <div class="col-lg-8">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col">
+                <h3 class="h6">Temperatura</h3>
+                <p>Condições térmicas durante a operação.</p>
+              </div>
+              <div class="col">
+                <h3 class="h6">Velocidade de rotação</h3>
+                <p>Variações de RPM ao longo do trabalho.</p>
+              </div>
+              <div class="col">
+                <h3 class="h6">Torque</h3>
+                <p>Esforço mecânico aplicado ao equipamento.</p>
+              </div>
+              <div class="col">
+                <h3 class="h6">Histórico de leituras</h3>
+                <p>Evolução das condições ao longo do tempo.</p>
+              </div>
+              <div class="col">
+                <h3 class="h6">Situação da máquina</h3>
+                <p>Uma visão do estado de cada equipamento.</p>
+              </div>
+              <div class="col">
+                <h3 class="h6">Alertas</h3>
+                <p>Sinais de alterações que merecem análise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 pt-5 border-top gy-4">
+          <div class="col-lg-4">
+            <p class="kicker">CAPACIDADES</p>
+            <h2 class="h2">Monitoramento inteligente de ponta a ponta.</h2>
+            <p>Da leitura inicial à análise da equipe, informações conectadas para acompanhar o que realmente importa.</p>
+          </div>
+          <div class="col-lg-8">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col">
+                <h3 class="h6">Monitoramento contínuo</h3>
+                <p>Acompanhamento das condições de operação para perceber mudanças no comportamento.</p>
+              </div>
+              <div class="col">
+                <h3 class="h6">Manutenção preditiva</h3>
+                <p>Apoio à identificação antecipada de possíveis anomalias e ao planejamento de intervenções.</p>
+              </div>
+              <div class="col">
+                <h3 class="h6">Inteligência Artificial</h3>
+                <p>Análise automatizada das leituras para reconhecer comportamentos fora do padrão.</p>
+              </div>
+              <div class="col">
+                <h3 class="h6">Histórico de dados</h3>
+                <p>Registro de leituras e resultados anteriores para dar contexto à condição atual.</p>
+              </div>
+              <div class="col">
+                <h3 class="h6">Alertas inteligentes</h3>
+                <p>Sinalização de situações que fogem aos padrões esperados e precisam de atenção.</p>
+              </div>
+              <div class="col">
+                <h3 class="h6">Dashboard centralizado</h3>
+                <p>Uma visualização organizada dos indicadores, equipamentos e análises importantes.</p>
+              </div>
+            </div>
+            <p class="small border-top pt-3">A AgroSense apoia a tomada de decisão e não substitui a avaliação dos profissionais responsáveis pela manutenção.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TECNOLOGIA -->
+      <section id="tecnologia" class="sand-band py-5 py-lg-6" aria-labelledby="tecnologia-titulo">
+        <div class="container">
+          <div class="row gy-4 mb-4">
+            <div class="col-lg-4">
+              <p class="kicker">04 / TECNOLOGIA</p>
+            </div>
+            <div class="col-lg-8">
+              <h2 id="tecnologia-titulo" class="section-title">Por trás da AgroSense.</h2>
+              <p class="lead">Tecnologias que conectam os dados do campo à inteligência do sistema. Cada uma com um papel claro, do desenvolvimento à análise.</p>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+            <div class="col">
+              <div class="rule-item">
+                <h3 class="h5">Node-RED</h3>
+                <p>Simulação dos sensores durante o desenvolvimento.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="rule-item">
+                <h3 class="h5">MQTT</h3>
+                <p>Comunicação dos dados entre os componentes.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="rule-item">
+                <h3 class="h5">Mosquitto</h3>
+                <p>Broker que recebe e distribui as mensagens MQTT.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="rule-item">
+                <h3 class="h5">Java</h3>
+                <p>Linguagem utilizada na construção do backend.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="rule-item">
+                <h3 class="h5">Spring Boot</h3>
+                <p>Estrutura para os serviços e regras do backend.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="rule-item">
+                <h3 class="h5">Python</h3>
+                <p>Treinamento do modelo de inteligência artificial.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="rule-item">
+                <h3 class="h5">ONNX</h3>
+                <p>Formato de integração do modelo de IA ao sistema.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="rule-item">
+                <h3 class="h5">Banco de Dados</h3>
+                <p>Armazenamento de leituras, análises e alertas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container py-5 py-lg-6" aria-labelledby="publico-titulo">
+        <div class="row gy-4 mb-4">
+          <div class="col-lg-4">
+            <p class="kicker">05 / PARA QUEM</p>
+          </div>
+          <div class="col-lg-8">
+            <h2 id="publico-titulo" class="section-title">Para quem faz a operação acontecer.</h2>
+            <p class="lead">Informação útil em cada ponta. Da cabine ao planejamento.</p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="rule-item h-100">
+              <span class="kicker">NO CAMPO</span>
+              <h3 class="h5 mt-4">Operadores de máquinas</h3>
+              <p>Visualizam as condições do equipamento e acompanham informações durante a operação.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="rule-item h-100">
+              <span class="kicker">NA MANUTENÇÃO</span>
+              <h3 class="h5 mt-4">Técnicos de manutenção</h3>
+              <p>Utilizam dados, históricos e alertas como apoio na análise e no planejamento da manutenção.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="rule-item h-100">
+              <span class="kicker">NO PLANEJAMENTO</span>
+              <h3 class="h5 mt-4">Gestores</h3>
+              <p>Acompanham indicadores e o histórico dos equipamentos para ter mais contexto nas decisões.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EQUIPE -->
+      <section id="equipe" class="container py-5 py-lg-6 border-top" aria-labelledby="equipe-titulo">
+        <div class="row gy-4 mb-5">
+          <div class="col-lg-4">
+            <p class="kicker">06 / A EQUIPE</p>
+          </div>
+          <div class="col-lg-8">
+            <h2 id="equipe-titulo" class="section-title">Quem está por trás da AgroSense.</h2>
+            <p class="lead">Uma equipe conectando desenvolvimento, dados e novas possibilidades para o setor agroindustrial.</p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <article class="person h-100">
+              <span class="initials">GB</span>
+              <p class="kicker mt-4 mb-2">DESENVOLVIMENTO</p>
+              <h3 class="h5">Gustavo Henrique Da Silva Barbosa Pereira</h3>
+              <p class="small">Integrante da equipe de desenvolvimento AgroSense.</p>
+              <a href="gustavo.html" aria-label="Ver portfólio de Gustavo Henrique Da Silva Barbosa Pereira">Ver portfólio ↗</a>
+            </article>
+          </div>
+          <div class="col">
+            <article class="person h-100">
+              <span class="initials">LG</span>
+              <p class="kicker mt-4 mb-2">DESENVOLVIMENTO</p>
+              <h3 class="h5">Louize Vinciaqui Garcia</h3>
+              <p class="small">Integrante da equipe de desenvolvimento AgroSense.</p>
+              <a href="louize.html" aria-label="Ver portfólio de Louize Vinciaqui Garcia">Ver portfólio ↗</a>
+            </article>
+          </div>
+          <div class="col">
+            <article class="person h-100">
+              <span class="initials">PL</span>
+              <p class="kicker mt-4 mb-2">DESENVOLVIMENTO</p>
+              <h3 class="h5">Paulo Ricardo Souza Lima</h3>
+              <p class="small">Integrante da equipe de desenvolvimento AgroSense.</p>
+              <a href="paulo.html" aria-label="Ver portfólio de Paulo Ricardo Souza Lima">Ver portfólio ↗</a>
+            </article>
+          </div>
+          <div class="col">
+            <article class="person h-100">
+              <span class="initials">SO</span>
+              <p class="kicker mt-4 mb-2">DESENVOLVIMENTO</p>
+              <h3 class="h5">Samara Vitória Santos Oliveira</h3>
+              <p class="small">Integrante da equipe de desenvolvimento AgroSense.</p>
+              <a href="samara.html" aria-label="Ver portfólio de Samara Vitória Santos Oliveira">Ver portfólio ↗</a>
+            </article>
+          </div>
+        </div>
+        <p class="small text-muted mt-4">Fotos e links pessoais serão adicionados pela equipe. Os portfólios estão em preparação.</p>
+      </section>
+
+      <!-- CONTATO -->
+      <section id="contato" class="forest-band py-5 py-lg-6" aria-labelledby="contato-titulo">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-8">
+              <p class="kicker text-light-subtle">07 / CONTATO</p>
+              <h2 id="contato-titulo" class="section-title">Boas ideias começam com uma conversa.</h2>
+              <p class="lead col-lg-9">Em breve, você poderá falar com a equipe, acompanhar o projeto e conhecer de perto a AgroSense.</p>
+              <a href="#solucao" class="btn btn-outline-light rounded-0 mt-3 px-4 py-3">Conheça a AgroSense ↗</a>
+            </div>
+            <div class="col-lg-4">
+              <h3 class="h5">O futuro da manutenção começa antes da falha.</h3>
+              <p>Transforme dados operacionais em informações capazes de apoiar decisões mais rápidas e inteligentes.</p>
+              <dl class="small border-top border-light border-opacity-25 pt-3">
+                <dt>E-mail</dt>
+                <dd>Endereço de contato a informar</dd>
+                <dt>LinkedIn</dt>
+                <dd>Perfil oficial a informar</dd>
+                <dt>GitHub</dt>
+                <dd>Repositório do projeto a informar</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container py-4 d-flex flex-wrap justify-content-between gap-2 small">
+      <div>
+        <a class="wordmark text-decoration-none" href="#inicio">Agro<span>Sense</span><span class="wordmark-dot">.</span></a>
+        <p class="mb-0 mt-2">Monitoramento inteligente para máquinas agroindustriais.</p>
+      </div>
+      <div class="text-md-end">
+        <p class="mb-2">Tecnologia que entende o campo.</p>
+        <p class="mb-0">© 2026 AgroSense. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
